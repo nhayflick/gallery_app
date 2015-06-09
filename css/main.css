@@ -56,14 +56,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.outer-container {
+  margin: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .container {
-    margin: 10px;
+  margin: auto;
+}
+
+.row {
+    margin: 10px 0;
 }
 
 .tiled-image {
     display: inline-block;
     box-sizing: border-box;
+    border: 1px solid #1e8ad2;
+    border-radius: 2px;
     position: relative;
+}
+
+.tiled-image:hover {
+  opacity: 0.8;
 }
 
 .caption {
